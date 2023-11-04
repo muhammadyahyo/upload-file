@@ -59,7 +59,14 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/node@^20":
+"@types/busboy@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@types/busboy/-/busboy-1.5.2.tgz#ba9e4f21f1687e25def6c0fe044c7ea5b47dd2ef"
+  integrity sha512-OYkRy+dkQWwoGch3oyQ9UE08PO1jSte7aBtPemLXAP9evwh7fNAfikWdB2VMeP8syY3H/XvGq+pB38dDvTe06g==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*", "@types/node@^20":
   version "20.8.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.8.10.tgz#a5448b895c753ae929c26ce85cab557c6d4a365e"
   integrity sha512-TlgT8JntpcbmKUFzjhsyhGfP2fsiz1Mv56im6enJ905xG1DAYesxJaeSbGqQmAw8OWPdhyJGhGSQGKRNJ45u9w==
@@ -92,7 +99,7 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.5.tgz#4751153abbf8d6199babb345a52e1eb4167d64af"
   integrity sha512-s/FPdYRmZR8SjLWGMCuax7r3qCWQw9QKHzXVukAuuIJkXkDRwp+Pu5LMIVFi0Fxbav35WURicYr8u1QsoybnQw==
 
-busboy@1.6.0:
+busboy@1.6.0, busboy@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
   integrity sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==
